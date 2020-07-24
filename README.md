@@ -1,9 +1,11 @@
-Vim dark colorscheme for C/C++ dev.
+# Cobra
+
+Dark colorscheme for C/C++ dev.
 
 
-# Installation
+## Installation
 
-Using native package management in vim. * see :help packages *
+Using native package management in vim. *:help packages* for details.
 
 * clone this repo into `.vim/pack/*/start`
 
