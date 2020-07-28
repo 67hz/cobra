@@ -1,14 +1,17 @@
 # Cobra
 
-Dark colorscheme for C/C++ dev.
+Dark colorscheme for C/C++/x86_64 development.
 
 
 ## Installation
 
-Using native package management in vim. *:help packages* for details.
+Using native package management in vim. See *:help packages* for details.
 
-* clone this repo into `.vim/pack/*/opt`
+* clone this repo into `.vim/pack/*/opt` or `.vim/pack/*/start`
 
-* add the package in `.vimrc` or within vim:
-* `:packadd! vim-cobra`
+Add the package in `.vimrc` or from a running vim session.
+
+```vim
+`:packadd! cobra`
+```
   
