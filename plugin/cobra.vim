@@ -181,8 +181,8 @@ hi TabLineSel ctermfg=red ctermbg=black
 hi Title ctermfg=LightBlue ctermbg=none
 
 " status line
-hi StatusLine ctermfg=black ctermbg=black
-hi StatusLineNC ctermfg=black ctermbg=black
+hi StatusLine ctermfg=yellow ctermbg=black
+hi StatusLineNC ctermfg=yellow  ctermbg=black
 hi VertSplit ctermfg=black ctermbg=black
 set fillchars=stl:-,stlnc:-,vert:\|
 
