@@ -181,10 +181,10 @@ hi TabLineSel ctermfg=red ctermbg=black
 hi Title ctermfg=LightBlue ctermbg=none
 
 " status line
-hi StatusLine ctermfg=yellow ctermbg=black
-hi StatusLineNC ctermfg=yellow  ctermbg=black
+
+hi StatusLine ctermfg=black ctermbg=Lightblue
+hi StatusLineNC ctermfg=black ctermbg=magenta
 hi VertSplit ctermfg=black ctermbg=black
-set fillchars=stl:-,stlnc:-,vert:\|
 
 " Popup menu
 hi Pmenu ctermfg=yellow ctermbg=black

@@ -5,13 +5,22 @@ Dark colorscheme for C/C++/x86_64 development.
 
 ## Installation
 
-Using native package management in vim. See *:help packages* for details.
+It is recommended to use Vim's native package management. See *:help packages* for details.
 
-* clone this repo into `.vim/pack/*/opt` or `.vim/pack/*/start`
+* clone this repo into `.vim/pack/*/opt/cobra` or `.vim/pack/*/start/cobra`
 
-Add the package in `.vimrc` or from a running vim session.
+Add the colorscheme in `.vimrc` or from a running vim session.
 
 ```vim
-`:packadd! cobra`
+`colorscheme cobra`
+```
+
+x86
+---
+
+For x86_64, you may need to indicate to vim the assembly flavor to get syntax highlighting.
+
+```vim
+let asmsyntax="nasm"
 ```
   
