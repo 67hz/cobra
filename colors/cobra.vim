@@ -95,7 +95,7 @@
   exe "hi Exception "       .Peach
   exe "hi Float "           .Pink
 
-  exe "hi Identifier "      .LightestPeach
+  exe "hi Identifier "      .LightPeach
   exe "hi Ignore "          .Blue
   exe "hi Include "         .CamoPurpleFaded
   exe "hi Keyword "         .Blue
@@ -105,7 +105,7 @@
   exe "hi Macro "           .Peach
 
   " LightSilver, FadedTeal, LightestPeach
-  exe "hi Normal "          .LightPeach
+  exe "hi Normal "          .LightestPeach
 
   exe "hi Noise "           .White
 
@@ -129,8 +129,8 @@
   " numeric_limitsc vector
   exe "hi TypeDef "         .CamoPurple
   
-  " CoolRed, MidBlue
-  exe "hi Type "            .SilverWhite
+  " CoolRed, MidBlue, SilverWhite
+  exe "hi Type "            .LightPeach
 
   
   " Teal - darker, MintBlue - lighter
