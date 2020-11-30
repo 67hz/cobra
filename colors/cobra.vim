@@ -137,7 +137,7 @@
   exe "hi Function "        .Green
 
   " i.e. @MORECOLOR LightTeal, FadedTeal, LightPeach
-  exe "hi Constant "        .LightTeal
+  exe "hi Constant "        .FadedTeal
 
   exe "hi Modifier "        .Yellow
 
