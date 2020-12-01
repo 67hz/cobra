@@ -210,6 +210,8 @@ exe "hi ycmwarningline ctermbg=NONE"
  exe "hi Normal ctermbg=293338"
 " exe "hi Normal ctermbg=22282b"
 
+set cursorline
+
 " MIT LICENSE {{{
 " The MIT License (MIT)
 " Copyright 2020 Aaron Hinojosa, http://www.avenue6creative.com
