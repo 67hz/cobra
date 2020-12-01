@@ -15,6 +15,14 @@ Add the colorscheme in `.vimrc` or from a running vim session.
 `colorscheme cobra`
 ```
 
+## Customization
+
+A `cursorline` is enabled by default to set the active line's background color and column number. This can be disabled:
+
+```vim
+set nocursorline
+```
+
 x86
 ---
 
