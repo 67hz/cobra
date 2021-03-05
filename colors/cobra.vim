@@ -161,7 +161,7 @@
 
 
 
-  " hi CursorLine   guifg=NONE      guibg=#1c1c1c   gui=NONE      ctermfg=NONE      ctermbg=234       cterm=NONE
+   hi CursorLine   guifg=NONE      guibg=#1c1c1c   gui=NONE      ctermfg=NONE      ctermbg=234       cterm=NONE
   hi CursorLine   guifg=NONE      guibg=#303030 gui=NONE      ctermfg=NONE        ctermbg=236      cterm=NONE
   hi ColorColumn  guifg=#ff0000   guibg=#1c1c1c   gui=NONE      ctermfg=203       ctermbg=234       cterm=NONE
   hi Visual guifg=NONE guibg=#ffffff ctermfg=234 ctermbg=255
@@ -193,7 +193,7 @@ hi PmenuThumb ctermfg=red ctermbg=black
 hi PmenuSel ctermfg=white ctermbg=magenta
 
 " Code Folding
-hi Folded ctermbg=black ctermfg=lightblue
+hi Folded ctermbg=none ctermfg=black
 
 
 " YCM
