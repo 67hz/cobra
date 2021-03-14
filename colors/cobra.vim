@@ -150,7 +150,7 @@
 
   exe "hi Number "          .Green
 
-  exe "hi String "          .CamoPurpleFaded
+  exe "hi String "          .CoolPurple
 
 
   exe "hi Tag "             .LightestPeach
