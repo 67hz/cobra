@@ -2,7 +2,6 @@
 " Maintainer:   Aaron Hinojosa
 " Version: 1.3.1
 
-
 " cobra.vim {{{
   set background=dark
   set t_Co=256
@@ -205,22 +204,10 @@ exe "hi YcmErrorLine " .Silver
 exe "hi YcmWarningLine " .HotPurple
 exe "hi ycmwarningline ctermbg=NONE"
 
-" sample background changes
+" uncomment for lighter gray background color
 " exe "hi Normal ctermbg=235"
- exe "hi Normal ctermbg=293338"
-" exe "hi Normal ctermbg=22282b"
+
 
 set cursorline
-
-" MIT LICENSE {{{
-" The MIT License (MIT)
-" Copyright 2020 Aaron Hinojosa, http://www.avenue6creative.com
-"
-" Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-"
-" The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-"
-" THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-" }}}
 
 " vim:foldmethod=marker:foldlevel=0
