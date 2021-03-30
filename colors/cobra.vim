@@ -1,5 +1,5 @@
-" Maintainer: Aaron Hinojosa
-" Version: 1.3.2
+" Maintainer: Aaron Hinojosa (github@67hz)
+" Version: 1.3.3
 
 set background=dark
 set t_Co=256
@@ -168,7 +168,7 @@ hi PmenuThumb ctermfg=red ctermbg=black
 hi PmenuSel ctermfg=white ctermbg=magenta
 
 " Code Folding
-hi Folded ctermbg=none ctermfg=black
+hi Folded ctermbg=black  ctermfg=235
 
 " YCM
 exe "hi YcmErrorSign " .Red
@@ -179,9 +179,14 @@ exe "hi YcmErrorLine " .Silver
 exe "hi YcmWarningLine " .HotPurple
 exe "hi ycmwarningline ctermbg=NONE"
 
-" uncomment for lighter gray background color
-" exe "hi Normal ctermbg=235"
+fu g:CobraLightBg()
+  " set lighter gray bg
+  exe "hi Normal ctermbg=235"
+endfu
 
+fu g:CobraRestoreBg()
+  exe "hi Normal ctermbg=NONE"
+endfu
 
 set cursorline
 
