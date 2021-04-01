@@ -26,9 +26,17 @@ set nocursorline
 x86
 ---
 
-For x86_64, you may need to indicate to vim the assembly flavor to get syntax highlighting.
+For x86, you may need to indicate the assembly flavor to get syntax highlighting.
 
 ```vim
 let asmsyntax="nasm"
 ```
-  
+
+Slow Scrolling in Windows?
+--------------------------
+
+If Windows scrolling is slow, disabling cursor line highlighting may help.
+
+```vim
+:set cul!
+```
