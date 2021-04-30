@@ -150,15 +150,15 @@ hi Underlined   guifg=NONE      guibg=NONE      gui=underline ctermfg=NONE      
 exe "hi IndentGuidesOdd " .DarkBlue
 exe "hi IndentGuidesOdd " .LightestPeach
 
-hi Directory guifg=#ffff87 ctermfg=202
+hi Directory guifg=#ffff87 ctermfg=57
 
 " set tab colors
 hi TabLineSel ctermfg=red ctermbg=black
 hi Title ctermfg=LightBlue ctermbg=none
 
 " status line
-hi StatusLine ctermfg=black ctermbg=Lightblue
-hi StatusLineNC ctermfg=black ctermbg=magenta
+hi StatusLine ctermfg=61 ctermbg=black
+hi StatusLineNC ctermfg=236 ctermbg=magenta
 hi VertSplit ctermfg=black ctermbg=black
 
 " Popup menu
