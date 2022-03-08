@@ -1,5 +1,5 @@
 " Maintainer: Aaron Hinojosa (github@67hz)
-" Version: 1.3.3
+" Version: 1.3.4
 
 set background=dark
 set t_Co=256
@@ -18,7 +18,7 @@ let g:colors_name = 'cobra'
 let bgcolor = &background
 highlight clear SignColumn
 
-let colors = #{ 
+let colors = #{
       \ Black: [585858, 240],
       \ JetBlack: [080808, 237],
       \}
@@ -138,9 +138,7 @@ exe "hi Todo "            .SilverWhite
 " Error color
 exe "hi SpellBad "        .Red
 
-
 hi CursorLine   guifg=NONE      guibg=#1c1c1c   gui=NONE      ctermfg=NONE      ctermbg=234       cterm=NONE
-hi CursorLine   guifg=NONE      guibg=#303030 gui=NONE      ctermfg=NONE        ctermbg=236      cterm=NONE
 hi ColorColumn  guifg=#ff0000   guibg=#1c1c1c   gui=NONE      ctermfg=203       ctermbg=234       cterm=NONE
 hi Visual guifg=NONE guibg=#ffffff ctermfg=234 ctermbg=255
 
@@ -157,15 +155,15 @@ hi TabLineSel ctermfg=red ctermbg=black
 hi Title ctermfg=LightBlue ctermbg=none
 
 " status line
-hi StatusLine ctermfg=61 ctermbg=black
-hi StatusLineNC ctermfg=236 ctermbg=magenta
+hi StatusLine ctermfg=236 ctermbg=51
+hi StatusLineNC ctermfg=236 ctermbg=99
 hi VertSplit ctermfg=black ctermbg=black
 
 " Popup menu
-hi Pmenu ctermfg=yellow ctermbg=black
-hi PmenuSbar ctermfg=lightblue ctermbg=black
+hi Pmenu ctermfg=36 ctermbg=236
+hi PmenuSbar ctermfg=lightblue ctermbg=none
 hi PmenuThumb ctermfg=red ctermbg=black
-hi PmenuSel ctermfg=white ctermbg=magenta
+hi PmenuSel ctermbg=lightblue ctermfg=black
 
 " Code Folding
 hi Folded ctermbg=black  ctermfg=235
